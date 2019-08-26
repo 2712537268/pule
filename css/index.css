@@ -1,0 +1,360 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body,html{
+	position: relative;
+	width:100%;
+	height:100%;
+	background: url(../img/d.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.tfoot{
+	position: absolute;
+	bottom: 50px;
+	right: 40px;
+}
+.tfoot a{
+	color: black;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-family: "宋体";
+	margin-right: 20px;
+}
+.top{
+	margin-top: 40px;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 700;
+	color: blue;
+}
+.zo{
+	width: 560px;
+	margin: 0px auto;
+	display: none;
+	background: wheat;
+	/*margin-left: 330px;
+	margin-top: 100px;*/
+	position: fixed;
+	left: 50%;
+	top: 150px;
+	margin-left: -280px;
+}
+.boy{
+	border: 1px solid gray;
+	width: 560px;
+	font-size: 14px;
+	font-family: "宋体";
+}
+.zong{
+	width: 550px;
+	margin: 5px auto;
+}
+.td1{
+	width: 84px;
+	height: auto;
+	vertical-align: top;
+}
+.td2{
+	width: 185px;
+	height: auto;
+	vertical-align: top;
+}
+.td3{
+	width: 250px;
+	height: auto;
+	vertical-align: top;
+}
+.td4{
+	vertical-align: top;
+	text-align: center;
+}
+.kuang{
+	border: 1px solid gray;
+	width: 100%;
+	height: 180px;
+	font-size: 14px;
+	border-collapse: collapse;
+}
+.xhx{
+	width: 35%;
+	border-bottom: 1px solid gray;
+	display: inline-block;
+}
+.btn{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid gainsboro;
+	/*background-color: cadetblue;*/
+	color: black;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	background: url(../img/加号.png) no-repeat;
+  	background-size: cover;
+}
+.dy{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid gainsboro;
+	/*background-color: cadetblue;*/
+	color: black;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	background: url(../img/打印.png) no-repeat;
+  	background-size: cover;
+}
+.tj{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid gainsboro;
+	/*background-color: cadetblue;*/
+	color: black;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	background: url(../img/提交.png) no-repeat;
+  	background-size: cover;
+}
+.box{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 30px;
+	position: absolute;
+	left: 50px;
+	top: 230px;
+}
+.boxtj{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 30px;
+	/*display: block;*/
+	/*position: absolute;
+	left: 220px;
+	top: 60px;*/
+}
+.top-dd{
+	width: 80%;
+	height: auto;
+	/*text-align: center;*/
+	margin-top: 20px;
+	margin-left: 5%;
+}
+.dd{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid gainsboro;
+	/*background-color: cadetblue;*/
+	color: black;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	background: url(../img/添加1.png) no-repeat;
+  	background-size: cover;
+}
+.top-qk{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid gainsboro;
+	background-color: cadetblue;
+	color: black;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	background: url(../img/删除.png) no-repeat;
+  	background-size: cover;
+}
+.xuanze{
+	width: 196px;
+	height: 30px;
+	/*border: 1px solid gray;*/
+	border-radius: 3px;
+	/*box-shadow:0px 0px 5px 0px #aaa inset;*/
+	text-align: center;
+	line-height: 30px;
+	display: block;
+	margin-bottom: 10px;
+	/*margin-left: 10px;*/
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.select{width: 300px;font-size: 14px;position: relative;position: absolute;left: 50px;top: 200px;}
+.select .clearfix {}
+.select .clearfix{height: 30px;line-height: 30px; display: inline-block;}
+.select .clearfix span {display: block;text-align: center;float: left;font-size: 12px;width: 50px;}
+.select .clearfix input {width: 200px;height: 30px;display: inline-block;float: left;box-sizing: border-box;}
+.select .boxtj {position: absolute;background: white;list-style: none;margin: 0;padding: 0;width: 200px;box-sizing: border-box;z-index: 100;text-align: center;left: 50px;display: none;border: 1px solid gainsboro;}
+.select .boxtj a {height: 30px;line-height: 30px;cursor: pointer;}
+.select .boxtj a:hover {color: #FFBF48;}
+.sc{
+	position: relative;
+	left: 84px;
+    top: -42px;
+	cursor: pointer;
+	font-size: 12px;
+	border: 1px solid gainsboro;
+	background: greenyellow;
+	border-radius: 3px;
+	display: none;
+}
+.scxs{
+	display: inline-block;
+	color: darkcyan;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+.a1,.c1{
+	width: 80px;
+	background: wheat;
+}
+.b3,.b4,.b5,.b6,.b7,.b8,.b9,.b10,.b11,.b12{
+	width: 60px;
+	background: wheat;
+}
+.a2,.a3,.a4,.a5,.a6,.a7,.a8,.a9,.a10,.a11,.a12,.a13,.a14,.a15{
+	display: inline-block;
+	width: 200px;
+	height: auto;
+	background: wheat;
+}
+.a16,.e1,#nowDate{
+	background: wheat;
+}
+input{
+	border: none;
+	font-size: 12px;
+	font-weight: 400;
+}
+.col{
+	border: 1px solid gray;
+	background: gold;
+	color: white;
+}
+.coll{
+	border: 1px solid gray;
+	background: white;
+	color: black;
+}
+.textar{
+	width: 200px;
+	height: 60px;
+	resize:none;
+	border: none;
+}
+.arae{
+	width: 200px;
+	height: 30px;
+	resize:none;
+	border: none;
+}
+.bx{
+	/*margin: 50px auto;*/
+	position: absolute;
+	left: 50px;
+	top: 150px;
+	width: 290px;
+	height: 36px;
+	/*position: relative;*/
+}
+.bx input{
+	height: 32px;
+	width: 240px;
+	border: 2px solid #b61d1d;
+	outline-style: none;
+	text-indent: 1em;
+	font-size: 14px;
+}
+.bx button{
+	border: none;
+	background-color: #b61d1d;
+	width: 50px;
+	height: 36px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	position: absolute;
+	/*right: 0;*/
+}
+.xx{
+	width: 560px;
+	height: 30px;
+	text-align: center;
+}
+.ddz{
+	width: 560px;
+	margin: 0px auto;
+	display: none;
+	/*margin-left: 330px;
+	margin-top: 100px;*/
+	position: fixed;
+	left: 50%;
+	top: 50px;
+	margin-left: -280px;
+	background: wheat;
+}
+.dzong{
+	margin: 0 auto;
+	/*position: absolute;
+	left: 30%;
+	top: 30%;*/
+}
+.ddz input{
+	border: 1px solid gray;
+	height: 20px;
+	margin-top: 5px;
+}
+.dd4,.dd14{
+	border: 1px solid gray;
+}
+.xzxan{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.gb{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	text-align: center;
+	border: none;
+    background: goldenrod;
+    color: wheat;
+}
+/*.xzxan button{
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	text-align: center;
+	border: none;
+    background: goldenrod;
+    color: wheat;
+}*/
